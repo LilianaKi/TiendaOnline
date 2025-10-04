@@ -1,0 +1,62 @@
+/* Archivo: panel.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-menu ul li {
+    display: inline;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+    background-color: #495057;
+}
+
+.main-content {
+    padding: 40px 60px;
+    text-align: center;
+    color: #212529;
+}
+
+.main-content h1 {
+    font-size: 2.4em;
+    margin-bottom: 12px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    color: #6c757d;
+}
